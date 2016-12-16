@@ -1075,7 +1075,7 @@ p.nominalBounds = new cjs.Rectangle(-51.2,-66.1,756,95);
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(149.1,157.6,0.044,0.044,0,0,0,2.2,1.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({regX:0.8,regY:1,scaleX:0.83,scaleY:0.83,x:88.9,y:161.7},12).to({regX:0.4,regY:0.4,scaleX:0.69,scaleY:0.69,x:99,y:160.9},8).to({regX:0.5,regY:0.5},27).to({regX:0.3,regY:0.4,x:98.9},56).to({alpha:0},13).to({startPosition:0},33).to({startPosition:0},9).wait(40));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({regX:0.8,regY:1,scaleX:0.83,scaleY:0.83,x:88.9,y:161.7},12).to({regX:0.4,regY:0.4,scaleX:0.69,scaleY:0.69,x:99,y:160.9},8).to({regX:0.5,regY:0.5},27).to({regX:0.3,regY:0.4,x:98.9},56).to({alpha:0},13).to({regX:0.4,regY:0.5,x:99},2).to({regX:0.3,regY:0.4,x:98.9},31).to({startPosition:0},9).wait(40));
 
 	// FlashAICB
 	this.instance_3 = new lib.Анимация16("synched",0);
@@ -1104,25 +1104,27 @@ p.nominalBounds = new cjs.Rectangle(-51.2,-66.1,756,95);
 	this.instance_6 = new lib.Анимация18("synched",0);
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(74,167.1,1.976,1.976,0,0,0,0.1,0.1);
+	this.instance_6.alpha = 0;
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(127).to({_off:false},0).to({regX:0.2,regY:0.2,scaleX:0.79,scaleY:0.79,x:112.3,y:180.8},9).to({startPosition:0},31).wait(31));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(130).to({_off:false},0).to({regX:0.2,regY:0.2,scaleX:0.79,scaleY:0.79,x:112.3,y:180.8,alpha:1},9).to({startPosition:0},31).wait(28));
 
 	// FlashAICB
 	this.instance_7 = new lib.Анимация17("synched",0);
 	this.instance_7.parent = this;
 	this.instance_7.setTransform(-87.4,167.9,1.837,1.837,0,0,0,-0.1,0.1);
+	this.instance_7.alpha = 0;
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(127).to({_off:false},0).to({regX:0.2,regY:0.2,scaleX:0.79,scaleY:0.79,x:47.8,y:180.2},9).to({startPosition:0},4).to({x:47.5},27).wait(31));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(130).to({_off:false},0).to({regX:0.2,regY:0.2,scaleX:0.79,scaleY:0.79,x:47.8,y:180.2,alpha:1},9).to({startPosition:0},4).to({x:47.5},27).wait(28));
 
 	// FlashAICB
 	this.instance_8 = new lib.Анимация14("synched",0);
 	this.instance_8.parent = this;
-	this.instance_8.setTransform(142.8,159.4,0.075,0.075,0,0,0,0.7,1.4);
+	this.instance_8.setTransform(142.8,168.4,0.075,0.075,0,0,0,0.7,1.4);
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(111).to({_off:false},0).to({regX:0.4,regY:0.1,scaleX:1.02,scaleY:1.02,x:54.6,y:172},7).to({regX:0.1,regY:0.2,scaleX:0.79,scaleY:0.79,x:74.8,y:170.7},7).to({y:170.6},15).to({y:170.7},57).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(111).to({_off:false},0).to({regX:0.4,regY:0.1,scaleX:1.02,scaleY:1.02,x:54.6,y:172},11).to({regX:0.1,regY:0.2,scaleX:0.79,scaleY:0.79,x:74.8,y:170.7},8).to({y:170.6},10).to({y:170.7},57).wait(1));
 
 	// FlashAICB
 	this.instance_9 = new lib.lifht("synched",0);
